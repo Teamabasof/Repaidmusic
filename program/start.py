@@ -80,7 +80,7 @@ Daha fazla bilgi için aşağıdaki butonları kullanın👇
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Özel bot yapımı", url="https://t.me/Baykaoss"
+                        "🌐 Özel bot yapımı", url="https://t.me/burakizm"
                     )
                 ],
             ]
