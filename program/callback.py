@@ -120,7 +120,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /Gel - gruba katılır
 » /git - gruptan çıkar
 
-⚡️ __Powered by {BOT_NAME} AI__""",
+⚡️ __{BOT_NAME} tarafından güçlendirildi__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Geri", callback_data="cbcmds")]]
         ),
@@ -129,10 +129,10 @@ async def cbadmin(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbsudo"))
 async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 here is the sudo commands:
-BUNLARI SEN YAPAMAZSIN BOŞA GELDİN GERİ GİT
+        f"""🏮
+Üzgünüm bu komutları sadece bot sahibi kullanabilir sen de kendine ait bir bot istiyorsan @burakizm 'e yazabilirsin...
 
-⚡ __Powered by {BOT_NAME} AI__""",
+⚡ __{BOT_NAME}tarafından güçlendirildi__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Geri", callback_data="cbcmds")]]
         ),
