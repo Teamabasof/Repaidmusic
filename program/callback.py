@@ -59,7 +59,7 @@ async def cbguides(_, query: CallbackQuery):
 4.) **Video/müzik oynatmaya başlamadan önce görüntülü sohbeti açın.**
 5.) **Bazen /reload komutunu kullanarak botu yeniden yüklemek bazı sorunları çözmenize yardımcı olabilir.**
 
-💡 **Bu bot hakkında takip eden bir sorunuz varsa, bunu buradaki destek sohbetimde iletebilirsiniz. @Baykaoss**
+💡 **Bu bot hakkında takip eden bir sorunuz varsa, bunu buradaki destek sohbetimde iletebilirsiniz. [DESTEK](https://t.me/@burakizm) **
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
