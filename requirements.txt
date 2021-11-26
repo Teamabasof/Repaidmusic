@@ -16,3 +16,5 @@ psutil
 future
 wget
 yt-dlp
+dnsspython
+gitpython
