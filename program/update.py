@@ -60,7 +60,7 @@ async def update_repo(_, message: Message):
         system("git pull -f && pip3 install -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
-    await msg.edit("bot şu anda güncel**  [sahip](https://t.me/baykaoss)", disable_web_page_preview=True)
+    await msg.edit("bot şu anda güncel**  [sahip](https://t.me/burakizm)", disable_web_page_preview=True)
 
 
 @Client.on_message(command(["restart", f"restart@{BOT_USERNAME}"]) & ~filters.edited)
