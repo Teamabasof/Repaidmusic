@@ -16,5 +16,5 @@ psutil
 future
 wget
 yt-dlp
-dnsspython
+dnspython
 gitpython
