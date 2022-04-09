@@ -1,15 +1,15 @@
 {
-    "name": "Veez Video Stream Bot",
+    "name": "SairMusicBot",
     "description": "telegram bot for streaming video & music trought the telegram group video chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/103a5208bb1698a8b33de.png",
+    "logo": "https://telegra.ph/file/9914f4947ec550c4d50a6.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream"
     ],
-    "website": "https://t.me/levinachannel",
+    "website": "https://t.me/sairingunlugu",
     "repository": "https://github.com/levina-lab/video-stream",
-    "success_url": "https://t.me/dlwrml",
+    "success_url": "https://t.me/sairbey",
     "env": {
         "API_ID": {
             "description": "your APP_ID from my.telegram.org",
