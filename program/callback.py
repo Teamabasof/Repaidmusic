@@ -130,7 +130,7 @@ async def cbadmin(_, query: CallbackQuery):
 async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮
-Üzgünüm bu komutları sadece bot sahibi kullanabilir sen de kendine ait bir bot istiyorsan @burakizm 'e yazabilirsin...
+Üzgünüm bu komutları sadece bot sahibi kullanabilir sen de kendine ait bir bot istiyorsan @Sairbey 'e yazabilirsin...
 
 ⚡ __{BOT_NAME}tarafından güçlendirildi__""",
         reply_markup=InlineKeyboardMarkup(
