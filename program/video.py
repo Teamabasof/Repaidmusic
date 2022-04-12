@@ -62,12 +62,9 @@ async def vplay(client, m: Message):
 
     keyboard = InlineKeyboardMarkup(
         [
-            [
+            [              
                 InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
-                ),
-                InlineKeyboardButton(
-                    text="🌻 kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="🌻 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
@@ -222,12 +219,9 @@ async def vstream(client, m: Message):
 
     keyboard = InlineKeyboardMarkup(
         [
-            [
+            [             
                 InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
-                ),
-                InlineKeyboardButton(
-                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="🌻 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
