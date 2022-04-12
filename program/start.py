@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Merhabalar {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **botu ve asistanı gruba ekleyip güzel flim izleyebilir şarkılar dinleyebilirsiniz**
+💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **botu ve asistanı gruba ekleyip güzel film izleyebilir şarkılar dinleyebilirsiniz**
 
 Daha fazla bilgi için aşağıdaki butonları kullanın👇
 """,
