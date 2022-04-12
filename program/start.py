@@ -71,18 +71,12 @@ Daha fazla bilgi için aşağıdaki butonları kullanın👇
                     InlineKeyboardButton("❤️ Sahip", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
+                
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Özel bot yapımı", url="https://t.me/Sairbey"
-                    )
-                ],
+                           
             ]
         ),
         disable_web_page_preview=True,
@@ -102,7 +96,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📣 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
@@ -138,7 +132,7 @@ async def get_uptime(client: Client, message: Message):
 @Client.on_message(filters.command("help") & ~filters.private & ~filters.channel)
 async def ghelp(_, message: Message):
     await message.reply_text(
-        """ Özel bot yapmak için iletişim=> @Sairbey
+        """ Özel bot yapmak için iletişim=> @EfsaneLions
 
 » /oynat => istediğin şarkıyı direk dinletir
 » /izlet => istedigin filmi indirip izletir
