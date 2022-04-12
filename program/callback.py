@@ -34,12 +34,9 @@ async def cbstart(_, query: CallbackQuery):
                     InlineKeyboardButton("📚 Komutlar", callback_data="cbcmds"),
                     InlineKeyboardButton(" Sahibi ", url=f"https://t.me/{OWNER_NAME}"),
                 ],
-                [
+                [                   
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 DESTEK", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
             ]
