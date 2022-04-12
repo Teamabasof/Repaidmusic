@@ -56,10 +56,7 @@ async def oynat(_, m: Message):
 
     keyboard = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton(
-                    text="✨ Sahip", url=f"https://t.me/{GROUP_SUPPORT}"
-                ),
+            [                
                 InlineKeyboardButton(
                     text="🌻 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
