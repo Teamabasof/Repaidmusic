@@ -94,7 +94,6 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
                     "📣 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
