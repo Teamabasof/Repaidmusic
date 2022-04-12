@@ -29,10 +29,7 @@ async def skip(client, m: Message):
 
     keyboard = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
-                ),
+            [            
                 InlineKeyboardButton(
                     text="🌻 Kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
