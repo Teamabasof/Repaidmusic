@@ -61,7 +61,7 @@ async def oynat(_, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="🌻 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
@@ -209,7 +209,7 @@ async def radio(_, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="🌻 Destek", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
