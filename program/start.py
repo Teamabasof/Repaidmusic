@@ -62,7 +62,7 @@ Daha fazla bilgi için aşağıdaki butonları kullanın👇
                 [
                     InlineKeyboardButton(
                         "➕ Grupa ekle➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/lordmusiqi_bot?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basit bilgi", callback_data="cbhowtouse")],
