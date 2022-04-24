@@ -68,7 +68,7 @@ Daha fazla bilgi için aşağıdaki butonları kullanın👇
                 [InlineKeyboardButton("❓ Basit bilgi", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Komutlar", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Sahip", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤️ Sahip", url=f"https://t.me/teamabasov"),
                 ],
                 [
                 
@@ -101,7 +101,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"**Merhaba {message.from_user.mention()}, ben {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group video chat** ❤"
+    alive = f"**Merhaba {message.from_user.mention()}, ben {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/teamabasov)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group video chat** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
