@@ -61,7 +61,7 @@ Daha fazla bilgi için aşağıdaki butonları kullanın👇
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕ Grupa ekle➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
